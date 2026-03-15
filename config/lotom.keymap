@@ -38,7 +38,9 @@
 &kp LEFT_WIN  &kp LEFT_ALT   &kp GRAVE  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &lt 4 LS(NUMBER_3)  &lt 3 F7     &kp SPACE  &kp F8  &kp F9
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT LEFT_ARROW>, <&scroll_up_down>;
+            sensor-bindings =
+                <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>,
+                <&scroll_up_down>;
         };
 
         MOUSE {
