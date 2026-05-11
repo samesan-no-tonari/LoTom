@@ -19,9 +19,11 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: lotom_R nice_oled
+    shield: lotom_R tom_oled
+    artifact-name: lotom_R+tom_oled
   - board: seeeduino_xiao_ble
-    shield: lotom_L dongle_display
+    shield: lotom_L tom_oled
     snippet: studio-rpc-usb-uart
+    artifact-name: lotom_L+tom_oled
   - board: seeeduino_xiao_ble
     shield: settings_reset
