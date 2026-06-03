@@ -38,7 +38,9 @@
 &kp LEFT_WIN  &kp LANGUAGE_2  &kp LSHIFT  &lt 4 HASH  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 3 LANG1  &kp SPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
 
-            sensor-bindings = <&tab_slide>, <&scroll_up_down>;
+            sensor-bindings =
+                <&inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>,
+                <&scroll_up_down>;
         };
 
         MOUSE {
